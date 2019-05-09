@@ -1,0 +1,2 @@
+S - 00000 - C00000 SEM_INIT [val=5]
+S - 00000 - P00000 SEM_INIT [val=0]
