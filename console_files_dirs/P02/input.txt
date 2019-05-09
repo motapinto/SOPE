@@ -1,0 +1,11 @@
+2.  – Operações básicas sobre ficheiros. Efeitos de buffering e do número de chamadas ao sistema.
+Escreva um programa, chamado copy, que copie o conteúdo de um ficheiro para outro. Os ficheiros de
+origem e de destino devem ser indicados como argumentos da linha de comandos (ex.: copy source
+destination). Resolva este problema usando:
+a) funções da biblioteca da linguagem C para abrir, ler e escrever nos ficheiros (fopen(), fread() e
+fwrite()) (= folha1‐p6a.c);
+b) chamadas directas ao sistema operativo (open(), read() e write()) (p2b.c).
+c) Determine o tempo de execução de cada uma das versões do programa anterior ao copiar um ficheiro de
+grande dimensão (Nota: o comando find dir_name -size +1000k pode ser usado para procurar
+ficheiros ocupando mais do que 1MB). Repita, usando buffers de tamanhos diferentes e analise os
+resultados.
